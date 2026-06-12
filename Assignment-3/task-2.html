@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>VaultofCodes Certificate Verifier</title>
+
+<link rel="stylesheet" href="task-2.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+
+<header class="brand-header">
+
+<img src="https://play-lh.googleusercontent.com/hi5Pbcqr7as2PcchuEoptT3j6qvUrSdoKGMI9Pu8kFt1eLMvughbFWswDB0LSeSYEg=w600-h300-pc0xffffff-pd" alt="VaultofCodes Logo" class="brand-logo">
+
+<h1 class="brand-title">
+VaultofCodes
+</h1>
+
+</header>
+
+<main>
+
+<div class="container">
+
+<h2>Certificate Verification Portal</h2>
+
+<p class="subtitle">
+Verify internship certificates issued by VaultofCodes
+</p>
+
+<input
+id="identifier"
+type="text"
+placeholder="Enter Email or Student ID">
+
+<button onclick="verifyStudent()">
+Verify Certificate
+</button>
+
+</div>
+
+<div id="result"></div>
+
+<div class="spinner hidden"></div>
+
+</main>
+
+<div id="toast"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
